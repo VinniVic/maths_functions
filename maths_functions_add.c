@@ -11,7 +11,7 @@ int main ()
 { 
     
     int x, y;
-    
+    printf("new line");
     printf("Please enter a value: "); scanf("%i", &x); 
     printf("Please enter second value: "); scanf("%i", &y);  
     printf("your end product:%i\n", add(x , y) );
